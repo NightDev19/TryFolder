@@ -62,8 +62,7 @@ def methoddashboard():
         print("===================================")
         print("|Name :{Name:<10} Hero: {Class:<9}|\n|Level : {Level:<5}".format(Name = name ,Class = hero["Class"],Level = hero["Level"]))
         stopper = input("Bag? [Y/N] : ")
-        if stopper.upper() == "Y":
-            return methodbag()
+        if stopper.upper() == "Y":return methodbag()
 
 if __name__=="__main__":
     startingpoint()
