@@ -59,7 +59,7 @@ def methodskill():
     pass
 def methoddashboard():
     while True:
-        print("=================================")
+        print("==================================")
         print("|Name :{Name:<10} Hero: {Class:<9}|\n|Level : {Level:<5}".format(Name = name ,
                                                                                 Class = hero["Class"],
                                                                                 Level = hero["Level"]))
