@@ -59,10 +59,8 @@ def methodskill():
     pass
 def methoddashboard():
     while True:
-        print("==================================")
-        print("|Name :{Name:<10} Hero: {Class:<9}|\n|Level : {Level:<5}".format(Name = name ,
-                                                                                Class = hero["Class"],
-                                                                                Level = hero["Level"]))
+        print("===================================")
+        print("|Name :{Name:<10} Hero: {Class:<9}|\n|Level : {Level:<5}".format(Name = name ,Class = hero["Class"],Level = hero["Level"]))
         stopper = input("Bag? [Y/N] : ")
         if stopper.upper() == "Y":
             return methodbag()
