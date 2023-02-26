@@ -65,5 +65,4 @@ def methoddashboard():
         if stopper.upper() == "Y":return methodbag()
 
 if __name__=="__main__":
-    print("Hwllo")
     startingpoint()
