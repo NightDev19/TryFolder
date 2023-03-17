@@ -71,7 +71,7 @@ if __name__== "__main__":
     img_path = input('Enter Image Path : ')
     hash_idea = input('ENTER ONE HASH : ')
     caption = input('ENTER CAPTION : ') # if you want to
-    caption = caption + '\n' + hashtags(hash_idea)
+    caption = caption + '\n' , hashtags(hash_idea)
     driver = webdriver.Chrome()
     login(username,password)
     upload(img_path,caption)
