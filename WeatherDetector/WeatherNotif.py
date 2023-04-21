@@ -26,7 +26,7 @@ def getNotification():
         # getting the corresponding "description"
         weather_desc = z[0]["description"]
         # combining the above values as a string 
-        info="Here is the weather description of "+ cityName+ ":"+" \nTemperature = " +str(temp) +"°C"+"\n atmospheric pressure = " + str(pres) + "hPa"+"\n humidity = " +str(hum) +"%"+"\n description of the weather= " + str(weather_desc)
+        info="Here is the weather description of "+ cityName+ ":"+" \nTemperature = " +str("%.2f"%temp) +"°C"+"\n atmospheric pressure = " + str(pres) + "hPa"+"\n humidity = " +str(hum) +"%"+"\n description of the weather= " + str(weather_desc)
         #showing the notification 
         notification.notify(
                     title = "YOUR WEATHER REPORT",

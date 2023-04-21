@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% block content %}
+    {% for dict_item in Juice %}
+        {% for key,value in dict_item.items() %}
+            <div class="col-sm-2 ms-1 m-3 p-2 bg-black text-white text-wrap rounded">
+                <p>Name : {{value["name"]}}</p>
+                <p>Prize : {{value["prize"]}}</p>
+                <button type="button" onclick="GetOrder()" class="btn btn-outline-success">Order</button>
+            </div>
+        {% endfor %}
+    {% endfor %}
+{% endblock %}

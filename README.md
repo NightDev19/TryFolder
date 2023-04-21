@@ -1,3 +1,3 @@
 # TryFolder
 
-<h1 align="center"> :clipboard: Projects For Beginners Like Me </h1>
+<h1 align="center">Projects For Beginners Like Me </h1>

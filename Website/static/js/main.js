@@ -1,0 +1,3 @@
+function GetOrder(){
+    alert('Hi!');
+}
