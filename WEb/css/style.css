@@ -1,18 +1,30 @@
-.card {
-    background-color: dodgerblue;
-    color: white;
-    height: 100px;
-    width: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.cards {
-    margin: 100px;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, 1fr); 
+body {
+  font-family:'Times New Roman', Times, serif;
 }
-@media (max-width: 340px) {
-    .cards { 
-        grid-template-columns: repeat(1, 3fr);  
-    }
-  }
-  
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #016d01;
+}
+.homepage {
+  text-align: center;
+}
+.homepage h1 {
+  font-weight: 700;
+  font-size: 47px;
+  color: black;
+}
+.homepage p {
+  font-weight: 400;
+  font-size: 27px;
+  padding-top: 10px;
+  color: black;
+}

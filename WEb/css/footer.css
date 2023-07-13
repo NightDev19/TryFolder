@@ -1,0 +1,60 @@
+footer{
+    width: 100%;
+    min-height: 200px;
+    background: #016d01;
+    padding: 20px;
+    color: white;
+}
+footer h1{
+    text-align: center;
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    color: white;
+}
+.contact-info .contacts a{
+    text-decoration: none;
+    color: white;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.message textarea{
+    width: 500px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.message textarea[type=text]:focus {
+    border: 3px solid #555;
+  }
+.message button{
+    width: 300px;
+    height: 50px;
+    background: #016d01;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px white solid;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.4s ease;
+}
+.message button:hover{
+    background:white;
+    border: 2px #016d01 solid;
+    color: #016d01;
+}

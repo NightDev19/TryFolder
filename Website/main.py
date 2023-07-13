@@ -23,4 +23,4 @@ with app.test_request_context():
 
 if __name__ == '__main__':
     # flask --app Website/main.py run --debug
-    app.run()
+    app.run(debug=True)

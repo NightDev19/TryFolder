@@ -1,17 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/aboutme.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
     <title>Document</title>
-</head>
-<body>
-    <div class="cards">
-        <div class="card">ONE</div>
-        <div class="card">TWO</div>
-        <div class="card">THREE</div>
-</div>
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="homepage">
+        <h1>Welcome To &lt;NightDev/&gt;!</h1>
+        <p>Please make your self at home.</p>
+      </div>
+    </header>
+    <nav>
+      <div class="navi">
+        <div class="logo">
+          <a href="#">&lt;NightDev/&gt;</a>
+        </div>
+        <div class="items">
+          <a href="#">Home</a>
+          <a href="#AboutMe">About Me</a>
+          <div class="dropdown">
+            <a
+              class="btn btn-success dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Services</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://nightdev19.github.io/MyPortfolio.io/"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">Projects</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#services">My Services</a></li>
+            </ul>
+          </div>
+          <a href="">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+    <section class="AboutMe" id="AboutMe">
+      <div class="aboutme">
+        <div class="title">
+          <h1>About Me</h1>
+        </div>
+        <div class="me">
+          <div class="myphoto">
+            <img src="./Assets/mypic-removebg-preview (1).png" alt="" />
+          </div>
+          <div class="info">
+            <h1>Im Sherwin Jefferson Tajan,</h1>
+            <p>
+              I started my coding journey when i was grade 12 an information and
+              communication technology student with a passion to learn
+              everything i could in programming world. And all the while
+              teaching myself a simple coding skill in my second year college ,
+              but that soon get overshadowed by my desire to excel python as Web
+              Developer. While in my third year college i discover the Game
+              Development that took my interest using Simplified C++.
+            </p>
+            <form action="">
+              <a href="">Download Resume</a>
+              <a href="">Download CV</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h1>Services</h1>
+      <div class="cards">
+        <div class="item">
+          <div class="items">
+            <h1>Front-End Developer</h1>
+            <p>Hello</p>
+            <p></p>
+          </div>
+          <div class="items">
+            <h1>Back-End Developer</h1>
+            <p>Hello</p>
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="items">
+            <h1>UI/UX Designer</h1>
+            <p>Hello</p>
+          </div>
+          <div class="items">
+            <h1>Game Developer</h1>
+            <p>Hello</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <h1>Contacts</h1>
+      <div class="contact-info">
+        <div class="contacts">
+          <h1>Way to access me</h1>
+          <p>Email : <a href="">sherwintajan143@gmail.com</a></p>
+          <p>Address : Natatas Tanauan City Batangas</p>
+          <p>Contact Number : +639153181689</p>
+        </div>
+        <form action="" class="message">
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button>Send</button>
+        </form>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
