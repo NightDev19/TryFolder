@@ -6,8 +6,8 @@ from fbchat import *
 from fbchat.models import Message, MessageReaction
 
 # facebook username & password
-username = "09693183634"
-password = "Anime@18"
+username = "username"
+password = "password"
 
 # login
 client = Client(username, password)
