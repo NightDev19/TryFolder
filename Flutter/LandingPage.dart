@@ -12,6 +12,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(),
+      initialRoute: '/',
+      routes: {
+        // When navigating to the "/" route, build the FirstScreen widget.
+        '/': (context) => const MyHomePage(),
+        // When navigating to the "/second" route, build the SecondScreen widget.
+        '/second': (context) => const AboutMe(),
+      },
     );
   }
 }
@@ -43,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: const Text('Open route'),
           onPressed: () {
             // Navigate to second route when tapped.
+            Navigator.pushNamed(context, '/second');
           },
         ),
       ),
@@ -61,7 +69,7 @@ class _AboutMe extends State<AboutMe> {
         child: ElevatedButton(
           onPressed: () {
             // Navigate back to first route when tapped.
-            
+            Navigator.pushNamed(context,"/");
           },
           child: const Text('Go back!'),
         ),
